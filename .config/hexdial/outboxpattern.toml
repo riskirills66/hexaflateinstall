@@ -1,0 +1,23 @@
+[dynamic.depositberhasil]
+pattern = "(?i)ditambahkan"
+title = "Deposit Berhasil"
+
+[dynamic.tiket]
+pattern = 'Mhn transfer Rp\. .* \(HARUS SAMA\)'
+title = "Tiket Deposit"
+
+[dynamic.tiketdibatalkan]
+pattern = 'Tiket .* sudah dibatalkan \(kadaluarsa\)\.'
+title = "Tiket Deposit Dibatalkan"
+
+[transaksi.gagal]
+pattern = "(?i)Gagal"
+title = "Transaksi Gagal"
+
+[transaksi.proses]
+pattern = "(?i)proses"
+title = "Transaksi Dalam Proses"
+
+[transaksi.sukses]
+pattern = "(?i)sukses"
+title = "Transaksi Sukses"

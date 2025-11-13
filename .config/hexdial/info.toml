@@ -1,0 +1,15 @@
+[message_config]
+attempt_limit_message = "Terlalu banyak percobaan login, silakan coba lagi nanti. Hubungi Customer Service jika masalah berlanjut."
+auth_invalid_credentials_message = "Otentikasi tidak valid, silakan coba clear cache aplikasi, dan coba lagi."
+auth_invalid_otp_message = "Kode OTP tidak valid, silakan coba lagi."
+auth_otp_expired_message = "OTP telah kedaluwarsa, silakan login kembali untuk mendapatkan OTP baru."
+auth_success_message = "Otentikasi Login Berhasil"
+check_failed_message = "Gagal mendapatkan informasi pengguna, silakan coba lagi nanti."
+cooldown_message = "Mohon tunggu 60 detik sebelum mencoba lagi."
+otp_success_message = "OTP Berhasil dikirim"
+otp_template = """
+Kode OTP Kamu: {}
+Jangan berikan kode ini ke siapa pun, termasuk pihak operator/admin.
+ Kode berlaku selama 5 menit."""
+user_inactive_message = "Akun pengguna tidak aktif. Silakan hubungi Customer Service."
+user_suspended_message = "Akun pengguna disuspend. Silakan hubungi Customer Services."

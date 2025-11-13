@@ -1,0 +1,21 @@
+[[configs]]
+dash = "true"
+highlight_key = "token"
+info_text = "Info Hubungi Call Center 123 Atau Hubungi PLN Terdekat"
+name = "TOKEN"
+product_prefixes = [
+    "PMP%",
+    "PM%",
+    "TOKENP%",
+]
+receipt_title = "STRUK PEMBELIAN LISTRIK PRABAYAR"
+regex = '(?P<token>[\dO-]+)/(?P<nama_pelanggan>[^/]+(?:/[^/]+)?)/(?P<golongan>[^/]+)/(?P<daya>[O0]*\d+VA)/(?P<kwh>[\d,-]+(?:[kK][wW][hH])?)'
+
+[[configs]]
+dash = "false"
+highlight_key = "ref"
+info_text = "Info Hubungi Kantor PDAM Terdekat"
+name = "PDAMPDG"
+product_prefixes = ["PDAMPDG"]
+receipt_title = "STRUK PEMBBAYARAN TAGIHAN PDAM PRABAYAR"
+regex = "(?P<nama>.*?)/PERIODE:(?P<periode>[^/]+)/DENDA:(?P<denda>[^/]+)/TAGIHAN:(?P<tagihan>[^/]+)/REF:(?P<ref>.*)"

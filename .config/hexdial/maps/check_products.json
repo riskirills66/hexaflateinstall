@@ -1,0 +1,37 @@
+{
+  "CPLN": [
+    "BPLN"
+  ],
+  "CEKOVO": [
+    "OVO%",
+    "UOVO%"
+  ],
+  "VAL.CEKTSEL": [
+    "TSEL"
+  ],
+  "CEKGJK": [
+    "GJK%",
+    "GOPAY%"
+  ],
+  "CEKTDOMQ": [
+    "TDOMQ"
+  ],
+  "INQ.CEKTDC": [
+    "TDC"
+  ],
+  "CEKDN": [
+    "DN%",
+    "ADN%",
+    "DANA%"
+  ],
+  "CEKIDPEL": [
+    "PM%",
+    "TOKENP%"
+  ],
+  "CEKPDAMPYK": [
+    "PDAMPYK"
+  ],
+  "CEKPDAMPDG": [
+    "PDAMPDG"
+  ]
+}

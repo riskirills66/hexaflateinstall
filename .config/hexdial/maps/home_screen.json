@@ -1,0 +1,843 @@
+{
+  "globalTheming": {
+    "containerBorderRadius": 30.0,
+    "darkTheme": {
+      "gradiantButtonDisabledColor": "#403d52",
+      "gradiantButtonDisabledTextColor": "#524f67",
+      "gradiantButtonTailColor": "#9ccfd8",
+      "paragraphTextColor": "#f6c177",
+      "surfaceColor": "#191724"
+    },
+    "lightTheme": {
+      "gradiantButtonDisabledColor": "#FFE0E0E0",
+      "gradiantButtonDisabledTextColor": "#FFD3D3D3",
+      "gradiantButtonTailColor": "#085EA5",
+      "paragraphTextColor": "#555555",
+      "surfaceColor": "#fafafa"
+    },
+    "welcomePoster": {
+      "borderRadius": 12.0,
+      "clonedFromMenuId": "menu_token",
+      "imageUrl": "https://api.hexaloom.com/assets/1758007971_960c3ec7.webp",
+      "padding": {
+        "bottom": 8.0,
+        "left": 8.0,
+        "right": 8.0,
+        "top": 8.0
+      },
+      "route": "/product",
+      "routeArgs": {},
+      "title": "Keren"
+    }
+  },
+  "navigation": {
+    "mainMenu": [
+      {
+        "active": true,
+        "dynamic": "home",
+        "icon": "http://api.hexaloom.com/assets/1757908065_319f4ccc.svg",
+        "label": "Beranda"
+      },
+      {
+        "active": true,
+        "icon": "http://api.hexaloom.com/assets/1757908521_50ef57c4.svg",
+        "label": "History",
+        "screen": "history"
+      },
+      {
+        "active": true,
+        "icon": "http://api.hexaloom.com/assets/1757908520_b32ca076.svg",
+        "label": "Profil",
+        "screen": "profile"
+      }
+    ],
+    "menuStyle": 2,
+    "moreMenu": {
+      "active": true,
+      "icon": "http://api.hexaloom.com/assets/1757908520_58f0c6e7.svg",
+      "items": [
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908519_145beaf9.svg",
+          "label": "Pengaturan",
+          "route": "/settings"
+        },
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908519_962ee772.svg",
+          "label": "Tukar Poin",
+          "route": "/poin_exchange"
+        },
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908518_50f95835.svg",
+          "label": "Nomor Terdaftar",
+          "screen": "all_senders_screen"
+        },
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908518_f1951866.svg",
+          "label": "Mutasi",
+          "screen": "mutasi"
+        },
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908517_c1885257.svg",
+          "label": "Riwayat Deposit",
+          "screen": "deposit_history_screen"
+        },
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908516_2de7f511.svg",
+          "label": "List Downline",
+          "screen": "downline_list"
+        },
+        {
+          "active": true,
+          "icon": "http://api.hexaloom.com/assets/1757908516_2de7f511.svg",
+          "label": "Jaringan",
+          "route": "/jaringan",
+          "routeArgs": {
+            "screenTitle": "Jaringan Downline"
+          }
+        }
+      ],
+      "label": "Lainnya"
+    }
+  },
+  "screens": {
+    "home": {
+      "action_buttons": [
+        {
+          "icon": "headset_mic",
+          "route": "/chat",
+          "tooltip": "Help",
+          "type": "standard"
+        },
+        {
+          "icon": "notifications_outlined",
+          "route": "/notifications",
+          "tooltip": "Notifications",
+          "type": "notification"
+        }
+      ],
+      "balance_card": true,
+      "balance_card_variant": 6,
+      "content": [
+        {
+          "id": "title",
+          "instanceId": "title_1756667758253_1",
+          "title": {
+            "color": "#000000",
+            "darkModeColor": "#ffffff",
+            "display": "left",
+            "text": "Produk Digital",
+            "type": "h5"
+          }
+        },
+        {
+          "frame": {
+            "borderLine": true,
+            "borderRadius": 20.0,
+            "height": 60,
+            "padding": {
+              "bottom": 8.0,
+              "left": 8.0,
+              "right": 8.0,
+              "top": 8.0
+            },
+            "shadow": true,
+            "width": 60
+          },
+          "id": "pulsa",
+          "instanceId": "pulsa_1756667758253_2",
+          "items": [
+            {
+              "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+              "menu_id": "menu_pulsa",
+              "submenu": {
+                "id": "pulsa_submenu",
+                "items": [
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_pulsa_reguler",
+                    "route": "/product",
+                    "routeArgs": {
+                      "hintText": "Nomor HP Pelanggan",
+                      "operators": [
+                        "0ISAT",
+                        "0TRI",
+                        "1IR",
+                        "1TR",
+                        "2TL",
+                        "3IL",
+                        "ATSELS",
+                        "AX",
+                        "AXL",
+                        "AXR",
+                        "AXRL",
+                        "I",
+                        "IPL",
+                        "QASMOKE",
+                        "SM",
+                        "SML",
+                        "SMPL",
+                        "SMR",
+                        "SR",
+                        "T",
+                        "TPL",
+                        "TSELREG",
+                        "TSELREG2",
+                        "TSELREGL2",
+                        "TXBY",
+                        "XR",
+                        "XRL",
+                        "XRPL",
+                        "XRR"
+                      ]
+                    },
+                    "textSize": 11.0,
+                    "title": "Pulsa Reguler"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_test_headers_1",
+                    "route": "/webview",
+                    "routeArgs": {
+                      "headers": {
+                        "Custom-Header": "value123",
+                        "device-type": "htc5",
+                        "x-token": "1234"
+                      },
+                      "includeAuth": true,
+                      "title": "Perhaps Headers",
+                      "url": "https://httpbin.org/headers"
+                    },
+                    "textSize": 11.0,
+                    "title": "Test Headers"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_pulsa_paket_data",
+                    "textSize": 11.0,
+                    "title": "Pulsa Paket Data",
+                    "url": "https://google.com"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_test_konten",
+                    "route": "/webview",
+                    "routeArgs": {
+                      "enableJavaScript": true,
+                      "enableScrolling": true,
+                      "routeConfig": {
+                        "routeArgs": {
+                          "url": "https://api.hexaloom.com/markdown/sample-with-image.md"
+                        }
+                      },
+                      "title": "Pulsa Promo",
+                      "url": "https://api.hexaloom.com/markdown/sample-with-image.md",
+                      "webviewBelowButton": {
+                        "dontShowAgain": true,
+                        "icon": "arrow_forward",
+                        "route": "/product",
+                        "routeArgs": {
+                          "operators": [
+                            "SR"
+                          ]
+                        },
+                        "style": "gradient",
+                        "text": "Setuju"
+                      }
+                    },
+                    "textSize": 11.0,
+                    "title": "Test Konten"
+                  }
+                ],
+                "submenuLayout": "grid",
+                "submenuStyle": "fullScreen",
+                "submenuTitle": "Pilih Jenis Pulsa"
+              },
+              "textSize": 11.0,
+              "title": "Pulsa"
+            },
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1757984603_496bc43e.png",
+              "menu_id": "menu_paket_data",
+              "submenu": {
+                "id": "pulsa_submenu",
+                "items": [
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_pulsa_reguler_1",
+                    "route": "/product",
+                    "routeArgs": {
+                      "hintText": "Nomor HP Pelanggan",
+                      "operators": [
+                        "TSELREG",
+                        "XLREG",
+                        "AXISREG",
+                        "IM3REG",
+                        "TRIREG",
+                        "SMARTREG"
+                      ]
+                    },
+                    "textSize": 11.0,
+                    "title": "Pulsa Reguler"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_pulsa_paket_data_1",
+                    "route": "/product",
+                    "routeArgs": {
+                      "hintText": "Nomor HP Pelanggan",
+                      "operators": [
+                        "TSELDATA",
+                        "XLDATA",
+                        "AXISDATA",
+                        "IM3DATA",
+                        "TRIDATA",
+                        "SMARTDATA"
+                      ]
+                    },
+                    "textSize": 11.0,
+                    "title": "Pulsa Paket Data"
+                  }
+                ],
+                "submenuLayout": "grid",
+                "submenuStyle": "bottomSheet",
+                "submenuTitle": "Pilih Jenis Pulsa"
+              },
+              "textSize": 11.0,
+              "title": "Paket Data"
+            },
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1757984598_7d4b8f9a.png",
+              "menu_id": "menu_paket_nelpon",
+              "submenu": {
+                "id": "pulsa_submenu",
+                "items": [
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_pulsa_reguler_2",
+                    "route": "/product",
+                    "routeArgs": {
+                      "hintText": "Nomor HP Pelanggan",
+                      "operators": [
+                        "TSELREG",
+                        "XLREG",
+                        "AXISREG",
+                        "IM3REG",
+                        "TRIREG",
+                        "SMARTREG"
+                      ]
+                    },
+                    "textSize": 11.0,
+                    "title": "Pulsa Reguler"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_pulsa_paket_data_2",
+                    "route": "/product",
+                    "routeArgs": {
+                      "hintText": "Nomor HP Pelanggan",
+                      "operators": [
+                        "TSELDATA",
+                        "XLDATA",
+                        "AXISDATA",
+                        "IM3DATA",
+                        "TRIDATA",
+                        "SMARTDATA"
+                      ]
+                    },
+                    "textSize": 11.0,
+                    "title": "Pulsa Paket Data"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                    "menu_id": "menu_menu_submenu",
+                    "submenu": {
+                      "id": "submenu_1756824685437",
+                      "items": [
+                        {
+                          "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                          "menu_id": "menu_item_submenu_baru",
+                          "submenu": {
+                            "id": "submenu_1756826302474",
+                            "items": [
+                              {
+                                "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                                "menu_id": "menu_item_submenu_baru_1",
+                                "submenu": {
+                                  "id": "submenu_1756826311698",
+                                  "items": [
+                                    {
+                                      "iconUrl": "http://api.hexaloom.com/assets/1757910462_086ecf44.png",
+                                      "menu_id": "menu_item_menu_baru",
+                                      "route": "/product",
+                                      "routeArgs": {
+                                        "hintText": "Nomor HP Pelanggan",
+                                        "operators": [
+                                          "TSELREG"
+                                        ]
+                                      },
+                                      "textSize": 11.0,
+                                      "title": "Item Menu Baru"
+                                    }
+                                  ],
+                                  "submenuLayout": "grid",
+                                  "submenuStyle": "bottomSheet",
+                                  "submenuTitle": "Submenu Baru"
+                                },
+                                "submenuLayout": "grid",
+                                "submenuStyle": "bottomSheet",
+                                "submenuTitle": "Submenu Baru",
+                                "textSize": 11.0,
+                                "title": "Item Submenu Baru"
+                              }
+                            ],
+                            "submenuLayout": "grid",
+                            "submenuStyle": "fullScreen",
+                            "submenuTitle": "Submenu Baru"
+                          },
+                          "submenuLayout": "grid",
+                          "submenuStyle": "fullScreen",
+                          "submenuTitle": "Submenu Baru",
+                          "textSize": 11.0,
+                          "title": "Item Submenu Baru"
+                        }
+                      ],
+                      "submenuLayout": "grid",
+                      "submenuStyle": "bottomSheet",
+                      "submenuTitle": "Submenu Baru"
+                    },
+                    "submenuLayout": "grid",
+                    "submenuStyle": "bottomSheet",
+                    "submenuTitle": "Submenu Baru",
+                    "textSize": 11.0,
+                    "title": "Menu Submenu"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910580_93934456.png",
+                    "menu_id": "menu_camera_test",
+                    "route": "/webview",
+                    "routeArgs": {
+                      "enableJavaScript": true,
+                      "enableScrolling": true,
+                      "routeConfig": {
+                        "routeArgs": {
+                          "url": "https://webcamtests.com/"
+                        }
+                      },
+                      "title": "webcamtest",
+                      "url": "https://webcamtests.com/"
+                    },
+                    "textSize": 11.0,
+                    "title": "Camera Test"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910580_93934456.png",
+                    "menu_id": "menu_mic_test",
+                    "route": "/webview",
+                    "routeArgs": {
+                      "enableJavaScript": true,
+                      "enableScrolling": true,
+                      "routeConfig": {
+                        "routeArgs": {
+                          "url": "https://mictests.com/"
+                        }
+                      },
+                      "title": "mictest",
+                      "url": "https://mictests.com/"
+                    },
+                    "textSize": 11.0,
+                    "title": "Mic Test"
+                  },
+                  {
+                    "iconUrl": "http://api.hexaloom.com/assets/1757910580_93934456.png",
+                    "menu_id": "menu_storage_test",
+                    "route": "/webview",
+                    "routeArgs": {
+                      "enableJavaScript": true,
+                      "enableScrolling": true,
+                      "routeConfig": {
+                        "routeArgs": {
+                          "url": "https://www.file.io/"
+                        }
+                      },
+                      "title": "storage test",
+                      "url": "https://www.file.io/"
+                    },
+                    "textSize": 11.0,
+                    "title": "Storage Test"
+                  }
+                ],
+                "submenuLayout": "list",
+                "submenuStyle": "fullScreen",
+                "submenuTitle": "Pilih Jenis Pulsa"
+              },
+              "textSize": 11.0,
+              "title": "Paket Nelpon"
+            },
+            {
+              "iconUrl": "http://api.hexaloom.com/assets/1757910580_93934456.png",
+              "menu_id": "menu_token",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "infoBox": {
+                  "message": "Pembelian token PLN tidak dapat dilakukan pada pukul 23.00–01.00 WIB. Khusus no. listrik awalan 56, juga tidak bisa transaksi pukul 11.30–12.30 WIB.",
+                  "type": "warning"
+                },
+                "operators": [
+                  "P",
+                  "PM",
+                  "PMP"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "Token"
+            },
+            {
+              "iconUrl": "http://api.hexaloom.com/assets/1757910647_a0b1e5a6.png",
+              "menu_id": "menu_emoney",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "operators": [
+                  "ADNFR",
+                  "BDNFC",
+                  "BDNFS",
+                  "DANA",
+                  "DANABANK",
+                  "DANAPRIO",
+                  "DN",
+                  "DNBANK",
+                  "DNC",
+                  "DNFP",
+                  "GJK"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "Emoney"
+            },
+            {
+              "iconUrl": "http://api.hexaloom.com/assets/1757910688_89a72450.png",
+              "menu_id": "menu_masa_aktif",
+              "route": "/product",
+              "routeArgs": {
+                "alphanumeric": false,
+                "hintText": "Nomor HP Pelanggan",
+                "operators": [
+                  "TEST",
+                  "TDC",
+                  "PDAMPDG",
+                  "AKTA"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "Masa Aktif"
+            },
+            {
+              "iconUrl": "http://api.hexaloom.com/assets/1757910727_6bb4f048.png",
+              "menu_id": "menu_aktivasi_voucher",
+              "route": "/product",
+              "routeArgs": {
+                "alphanumeric": false,
+                "hintLastDestination": "Nomor Voucher Akhir",
+                "hintText": "Nomor Voucher Awal",
+                "infoBox": {
+                  "message": "Pengaktivan Voucher Massal Maximal 50 kode Voucher",
+                  "type": "info"
+                },
+                "operators": [
+                  "TEST",
+                  "AKTA"
+                ],
+                "trailingNumbers": true
+              },
+              "textSize": 11.0,
+              "title": "Aktivasi Voucher"
+            },
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1759758818_91f25bb1.png",
+              "menu_id": "menu_hiburan_1",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor Pelanggan",
+                "operators": [
+                  "ML"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "Hiburan"
+            }
+          ]
+        },
+        {
+          "id": "title",
+          "instanceId": "title_1757993171797",
+          "order": 1.0,
+          "title": {
+            "color": "#000000",
+            "darkModeColor": "#ffffff",
+            "display": "left",
+            "text": "Promo Spesial",
+            "type": "h5"
+          }
+        },
+        {
+          "autoSlide": true,
+          "autoSlideInterval": 5,
+          "banners": [
+            {
+              "borderRadius": 8.0,
+              "imageUrl": "https://api.hexaloom.com/assets/1757986090_3dc6d45f.png",
+              "padding": {
+                "bottom": 40.0,
+                "left": 8.0,
+                "right": 8.0,
+                "top": 8.0
+              },
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "infoBox": "This is test products screen",
+                "operators": [
+                  "TSELREG",
+                  "TSELREG2"
+                ]
+              },
+              "title": "Promo Spesial",
+              "titleFontSize": 14.0,
+              "titlePosition": {
+                "bottom": 8.0,
+                "left": 16.0
+              }
+            },
+            {
+              "borderRadius": 8.0,
+              "imageUrl": "https://api.hexaloom.com/assets/1757986089_0422d1d3.png",
+              "padding": {
+                "bottom": 40.0,
+                "left": 8.0,
+                "right": 8.0,
+                "top": 8.0
+              },
+              "title": "Fitur Baru",
+              "titlePosition": {
+                "bottom": 8.0,
+                "left": 16.0
+              },
+              "titleTextShadow": true,
+              "titleTextShadowColor": "#000000",
+              "titleTextShadowOpacity": 0.5,
+              "url": "https://example.com/features"
+            },
+            {
+              "borderRadius": 8.0,
+              "imageUrl": "https://api.hexaloom.com/assets/1757986280_544954ed.webp",
+              "padding": {
+                "bottom": 40.0,
+                "left": 8.0,
+                "right": 8.0,
+                "top": 8.0
+              },
+              "route": "/webview",
+              "routeArgs": {
+                "url": "https://example.com/webview-content"
+              },
+              "title": "Kunjungi Web",
+              "titlePosition": {
+                "bottom": 8.0,
+                "left": 16.0
+              },
+              "titleTextShadow": true,
+              "titleTextShadowColor": "#000000",
+              "titleTextShadowOpacity": 0.5
+            },
+            {
+              "borderRadius": 8.0,
+              "imageUrl": "https://api.hexaloom.com/assets/1758004973_d57aed77.jpg",
+              "padding": {
+                "bottom": 40.0,
+                "left": 8.0,
+                "right": 8.0,
+                "top": 8.0
+              },
+              "route": "/webview",
+              "routeArgs": {
+                "destUrl": "https://www.telkomsel.com/shops/channel/o2o/{}/success",
+                "operator": "TDOMQ",
+                "productKode": "TDOMQ",
+                "title": "Telkomsel Shop",
+                "url": "https://www.telkomsel.com/shops/channel/o2o/"
+              },
+              "title": "Telkomsel Shop",
+              "titleFontSize": 14.0,
+              "titlePosition": {
+                "bottom": 8.0,
+                "left": 16.0
+              },
+              "titleTextShadow": true,
+              "titleTextShadowColor": "#000000",
+              "titleTextShadowOpacity": 0.5
+            },
+            {
+              "borderRadius": 8.0,
+              "imageUrl": "https://api.hexaloom.com/assets/1758004973_d57aed77.jpg",
+              "padding": {
+                "bottom": 40.0,
+                "left": 8.0,
+                "right": 8.0,
+                "top": 8.0
+              },
+              "route": "/webview",
+              "routeArgs": {
+                "destUrl": "https://femarket.rmwcenter.com/order/{}",
+                "enableJavaScript": true,
+                "enableScrolling": true,
+                "operator": "TDOMQ",
+                "productKode": "TDOMQ",
+                "routeConfig": {
+                  "routeArgs": {
+                    "url": "https://femarket.rmwcenter.com"
+                  }
+                },
+                "title": "Shope",
+                "url": "https://femarket.rmwcenter.com"
+              },
+              "title": "Shop",
+              "titleFontSize": 14.0,
+              "titlePosition": {
+                "bottom": 8.0,
+                "left": 16.0
+              },
+              "titleTextShadow": true,
+              "titleTextShadowColor": "#000000",
+              "titleTextShadowOpacity": 0.5
+            }
+          ],
+          "borderRadius": 12.0,
+          "height": 185,
+          "id": "banner_slider",
+          "instanceId": "banner_slider_1756667758253_3",
+          "layoutVariant": "monocle",
+          "showFade": false,
+          "showIndicators": false,
+          "spacing": 10.0,
+          "width": 150
+        },
+        {
+          "id": "title",
+          "instanceId": "title_copy_1759784865436",
+          "order": 1.0,
+          "title": {
+            "color": "#000000",
+            "darkModeColor": "#ffffff",
+            "display": "left",
+            "text": "Bayar Tagihan",
+            "type": "h5"
+          }
+        },
+        {
+          "frame": {
+            "borderLine": true,
+            "borderRadius": 20.0,
+            "height": 60,
+            "padding": {
+              "bottom": 8.0,
+              "left": 8.0,
+              "right": 8.0,
+              "top": 8.0
+            },
+            "shadow": true,
+            "width": 60
+          },
+          "id": "pulsa",
+          "instanceId": "pulsa_copy_1759758396388",
+          "items": [
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1757910788_d9de5dfb.png",
+              "menu_id": "menu_pdam",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "operators": [
+                  "PDAMPDG"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "PDAM"
+            },
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1759759463_7cf08835.png",
+              "menu_id": "menu_pln_pascabayar",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "operators": [
+                  "PLN"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "PLN Pascabayar"
+            },
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1759759581_9630ac3f.png",
+              "menu_id": "menu_internet_rumah",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "operators": [
+                  "INTERNET"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "Internet Rumah"
+            },
+            {
+              "iconUrl": "https://api.hexaloom.com/assets/1759759580_3be1001c.png",
+              "menu_id": "menu_asuransi",
+              "route": "/product",
+              "routeArgs": {
+                "hintText": "Nomor HP Pelanggan",
+                "operators": [
+                  "ASURANSI"
+                ]
+              },
+              "textSize": 11.0,
+              "title": "Asuransi"
+            }
+          ]
+        },
+        {
+          "id": "title",
+          "instanceId": "title_1758004510260",
+          "order": 1.0,
+          "title": {
+            "color": "#000000",
+            "darkModeColor": "#ffffff",
+            "display": "left",
+            "text": "Riwayat Transaksi",
+            "type": "h5"
+          }
+        },
+        {
+          "count": 3,
+          "id": "history",
+          "instanceId": "history_1758004540140",
+          "order": 4.0
+        }
+      ],
+      "headerBackgroundUrl": {
+        "shopee": {
+          "imageUrl": "https://api.hexaloom.com/assets/1758865765_c7db5711.png"
+        }
+      },
+      "headerFade": true,
+      "screen": "home",
+      "screenTitle": "Home"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+[tiket_regex]
+regex = '(?s).*?Rp\.\s*(?P<amount>[\d.,]+).*?\n(?P<name>[^\n\s]+(?:\s+[^\n\s]+)*)\s*\nBRI:\s*(?P<bank_close_bri>\d+)\s*\nMANDIRI:\s*(?P<bank_mandiri>\d+)\s*\nBNI:\s*(?P<bank_bni>\d+)\s*\nBCA:\s*(?P<bank_bca>\d+)\s*\nBSI:\s*(?P<bank_bsi>\d+)\s*\n(?P<note>.*)'

@@ -1,0 +1,22 @@
+{
+  "mainCard": "Butuh Bantuan?",
+  "mainCardContent": "Pusat bantuan kami siap membantu Anda. Temukan jawaban dari pertanyaan umum atau hubungi tim support kami.",
+  "topicCards": [
+    {
+      "desc": "Cara mengelola akun dan memperbarui profil.",
+      "icon": "https://api.hexaloom.com/assets/1759452558_10db9546.svg",
+      "title": "Akun & Profile",
+      "url": "https://google.com"
+    },
+    {
+      "desc": "Tips menjaga keamanan akun dan transaksi",
+      "icon": "https://api.hexaloom.com/assets/1759452558_7d59124c.svg",
+      "route": "/webview",
+      "routeArgs": {
+        "url": "https://google.com"
+      },
+      "title": "Keamanan"
+    }
+  ],
+  "topicTitle": "Topik Populer"
+}

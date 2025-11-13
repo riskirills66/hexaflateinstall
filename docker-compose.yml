@@ -1,0 +1,23 @@
+services:
+  hexcate-backend:
+    image: ghcr.io/riskirills66/hexcate:init
+    container_name: hexcate-backend
+    user: "0:0"
+    init: true
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-8080}:${PORT:-8080}"
+    volumes:
+      - ./.config:/source:ro
+      - hexdial_config:/home/appuser/.config
+      - hexdial_tmp:/tmp
+    command: sh -c "if [ -d /source ] && [ \"$$(ls -A /source 2>/dev/null)\" ]; then for file in /source/*; do target_file=\"/home/appuser/.config/$$(basename $$file)\"; if [ ! -e \"$$target_file\" ]; then cp -r \"$$file\" \"$$target_file\" 2>/dev/null || true; fi; done; fi && chown -R 1000:1000 /home/appuser/.config && chmod -R u+w /home/appuser/.config && exec su appuser -s /bin/sh -c 'exec hexdial-api'"
+    restart: unless-stopped
+volumes:
+  hexdial_tmp:
+    name: hexdial_tmp
+    driver: local
+  hexdial_config:
+    name: hexdial_config
+    driver: local

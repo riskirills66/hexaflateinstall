@@ -1,0 +1,305 @@
+{
+  "hadiah": [
+    {
+      "id": 1,
+      "nama": "Pulsa Rp 5.000",
+      "poin": 100,
+      "kategori": "pulsa",
+      "deskripsi": "Pulsa seluler senilai Rp 5.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 2,
+      "nama": "Pulsa Rp 10.000",
+      "poin": 200,
+      "kategori": "pulsa",
+      "deskripsi": "Pulsa seluler senilai Rp 10.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 3,
+      "nama": "Pulsa Rp 25.000",
+      "poin": 500,
+      "kategori": "pulsa",
+      "deskripsi": "Pulsa seluler senilai Rp 25.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 4,
+      "nama": "Pulsa Rp 50.000",
+      "poin": 1000,
+      "kategori": "pulsa",
+      "deskripsi": "Pulsa seluler senilai Rp 50.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 5,
+      "nama": "Pulsa Rp 100.000",
+      "poin": 2000,
+      "kategori": "pulsa",
+      "deskripsi": "Pulsa seluler senilai Rp 100.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 6,
+      "nama": "Paket Data 1GB",
+      "poin": 150,
+      "kategori": "data",
+      "deskripsi": "Paket internet 1GB berlaku 30 hari",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 7,
+      "nama": "Paket Data 3GB",
+      "poin": 400,
+      "kategori": "data",
+      "deskripsi": "Paket internet 3GB berlaku 30 hari",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 8,
+      "nama": "Paket Data 5GB",
+      "poin": 600,
+      "kategori": "data",
+      "deskripsi": "Paket internet 5GB berlaku 30 hari",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 9,
+      "nama": "E-Wallet Rp 10.000",
+      "poin": 200,
+      "kategori": "e-wallet",
+      "deskripsi": "Saldo e-wallet senilai Rp 10.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 10,
+      "nama": "E-Wallet Rp 25.000",
+      "poin": 500,
+      "kategori": "e-wallet",
+      "deskripsi": "Saldo e-wallet senilai Rp 25.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 11,
+      "nama": "E-Wallet Rp 50.000",
+      "poin": 1000,
+      "kategori": "e-wallet",
+      "deskripsi": "Saldo e-wallet senilai Rp 50.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 12,
+      "nama": "Voucher Game Mobile Legends",
+      "poin": 300,
+      "kategori": "game",
+      "deskripsi": "Voucher diamond Mobile Legends senilai Rp 15.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 13,
+      "nama": "Voucher Game Free Fire",
+      "poin": 250,
+      "kategori": "game",
+      "deskripsi": "Voucher diamond Free Fire senilai Rp 12.500",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 14,
+      "nama": "Voucher Game PUBG Mobile",
+      "poin": 280,
+      "kategori": "game",
+      "deskripsi": "Voucher UC PUBG Mobile senilai Rp 14.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 15,
+      "nama": "Voucher Grab Rp 20.000",
+      "poin": 400,
+      "kategori": "transport",
+      "deskripsi": "Voucher transportasi Grab senilai Rp 20.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 16,
+      "nama": "Voucher GoPay Rp 25.000",
+      "poin": 500,
+      "kategori": "transport",
+      "deskripsi": "Voucher transportasi GoPay senilai Rp 25.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 17,
+      "nama": "Voucher ShopeePay Rp 30.000",
+      "poin": 600,
+      "kategori": "e-commerce",
+      "deskripsi": "Voucher ShopeePay senilai Rp 30.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 18,
+      "nama": "Voucher Tokopedia Rp 35.000",
+      "poin": 700,
+      "kategori": "e-commerce",
+      "deskripsi": "Voucher Tokopedia senilai Rp 35.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 19,
+      "nama": "Voucher Netflix 1 Bulan",
+      "poin": 1500,
+      "kategori": "entertainment",
+      "deskripsi": "Voucher berlangganan Netflix 1 bulan",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 20,
+      "nama": "Voucher Spotify Premium 1 Bulan",
+      "poin": 800,
+      "kategori": "entertainment",
+      "deskripsi": "Voucher berlangganan Spotify Premium 1 bulan",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 21,
+      "nama": "Voucher YouTube Premium 1 Bulan",
+      "poin": 1200,
+      "kategori": "entertainment",
+      "deskripsi": "Voucher berlangganan YouTube Premium 1 bulan",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 22,
+      "nama": "Voucher Starbucks Rp 50.000",
+      "poin": 1000,
+      "kategori": "food",
+      "deskripsi": "Voucher minuman Starbucks senilai Rp 50.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 23,
+      "nama": "Voucher KFC Rp 75.000",
+      "poin": 1500,
+      "kategori": "food",
+      "deskripsi": "Voucher makanan KFC senilai Rp 75.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 24,
+      "nama": "Voucher McDonald's Rp 60.000",
+      "poin": 1200,
+      "kategori": "food",
+      "deskripsi": "Voucher makanan McDonald's senilai Rp 60.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 25,
+      "nama": "Voucher Indomaret Rp 100.000",
+      "poin": 2000,
+      "kategori": "retail",
+      "deskripsi": "Voucher belanja Indomaret senilai Rp 100.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 26,
+      "nama": "Voucher Alfamart Rp 100.000",
+      "poin": 2000,
+      "kategori": "retail",
+      "deskripsi": "Voucher belanja Alfamart senilai Rp 100.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 27,
+      "nama": "Voucher Shell Rp 200.000",
+      "poin": 4000,
+      "kategori": "fuel",
+      "deskripsi": "Voucher bahan bakar Shell senilai Rp 200.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 28,
+      "nama": "Voucher Pertamina Rp 250.000",
+      "poin": 5000,
+      "kategori": "fuel",
+      "deskripsi": "Voucher bahan bakar Pertamina senilai Rp 250.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 29,
+      "nama": "Voucher BPJS Kesehatan 1 Bulan",
+      "poin": 3000,
+      "kategori": "health",
+      "deskripsi": "Voucher iuran BPJS Kesehatan 1 bulan",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 30,
+      "nama": "Voucher PLN Rp 500.000",
+      "poin": 10000,
+      "kategori": "utilities",
+      "deskripsi": "Voucher token listrik PLN senilai Rp 500.000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    },
+    {
+      "id": 31,
+      "nama": "Uang Tunai Rp. 5000",
+      "poin": 1250,
+      "kategori": "uang-tunai",
+      "deskripsi": "Uang Tunai Senilai Rp. 5000",
+      "image_url": "https://pixabay.com/images/download/gift-1420830_640.jpg",
+      "status": "aktif"
+    }
+  ],
+  "metadata": {
+    "total_hadiah": 31,
+    "kategori_tersedia": [
+      "uang-tunai",
+      "pulsa",
+      "data",
+      "e-wallet",
+      "game",
+      "transport",
+      "e-commerce",
+      "entertainment",
+      "food",
+      "retail",
+      "fuel",
+      "health",
+      "utilities"
+    ],
+    "poin_minimum": 100,
+    "poin_maksimum": 10000,
+    "tanggal_update": "2025-09-10",
+    "versi": "1.0"
+  }
+}

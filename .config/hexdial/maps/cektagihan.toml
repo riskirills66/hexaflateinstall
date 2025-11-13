@@ -1,0 +1,5 @@
+CEKGJK = 'Nama Nasabah:\s*(?P<nama_pelanggan>[^/]+?)\s*/'
+CEKPDAMPDG = '(?P<nama>[^/]+)/PERIODE:(?P<periode>[^/]+)/DENDA:(?P<denda>[^/]+)/RP\.TAGIHAN:(?P<rp_tagihan>[^/]+)/TTL\.TAGIHAN:(?P<tagihan>.*)'
+CEKTDOMQ = '(?P<tagihan>[\d.,]+)\}'
+CEKTSEL = '(?P<tagihan>[\d.,]+)'
+CPLN = "(?P<nama>[^/]+)/TARIFDAYA:(?P<tarif>[^/]+)/(?P<daya>[^/]+)/PERIODE:(?P<periode>[^/]+)/STAND:(?P<stand>[^/]+)/RPTAG:(?P<rp_tag>[^/]+)/DENDA:(?P<denda>[^/]+)/TOTALTAG:(?P<tagihan>.*)"
