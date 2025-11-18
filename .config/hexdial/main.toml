@@ -9,7 +9,13 @@ blocked_referrals = []
 outbox_like_pattern = "%{product}.{destination}%Sukses%"
 pesan_format_no_val = "{trxid}.{product}.{destination}.{pin}"
 pesan_format_with_val = "{trxid}.{product}.{destination}.{val}.{pin}"
+combo_code_format= "{trxid}.{combo_code}.{product}.{destination}.{pin}"
 sdh_pernah_filter = "%sdh pernah%"
+
+[trx]
+pesan_format_no_val = "{trxid}.{product}.{destination}.{pin}"
+pesan_format_with_val_nonzero = "{trxid}.{product}.{destination}.{val}.{pin}"
+pesan_format_with_val_zero = "{product}.{destination}.{pin}.{val}"
 
 [commission_exchange]
 tukar_format = "TUKAR.{val}.{pin}"
@@ -69,7 +75,3 @@ minimum_exchange = 500.0
 [server_config]
 suppress_encryption_warnings = true
 
-[trx]
-pesan_format_no_val = "{trxid}.{product}.{destination}.{pin}"
-pesan_format_with_val_nonzero = "{trxid}.{product}.{destination}.{val}.{pin}"
-pesan_format_with_val_zero = "{product}.{destination}.{pin}.{val}"
