@@ -10,12 +10,12 @@ services:
       - "${PORT:-8080}:${PORT:-8080}"
     volumes:
       # Config directory: mount host XDG config to container
-      # Set HEXDIAL_CONFIG_DIR in .env or use default: ~/.config/hexdial
+      # REQUIRED: Set HEXDIAL_CONFIG_DIR in .env (default: ~/.config/hexdial on Linux, %APPDATA%/hexdial on Windows)
       - ${HEXDIAL_CONFIG_DIR}:/root/.config/hexdial
       # Data directory: mount host XDG data to container (assets, chat, verification)
-      # Set HEXDIAL_DATA_DIR in .env or use default: ~/.local/share/hexdial
+      # REQUIRED: Set HEXDIAL_DATA_DIR in .env (default: ~/.local/share/hexdial on Linux, %LOCALAPPDATA%/hexdial on Windows)
       - ${HEXDIAL_DATA_DIR}:/root/.local/share/hexdial
       # Cache directory: mount host XDG cache to container
-      # Set HEXDIAL_CACHE_DIR in .env or use default: ~/.cache
+      # REQUIRED: Set HEXDIAL_CACHE_DIR in .env (default: ~/.cache on Linux, %LOCALAPPDATA% on Windows)
       - ${HEXDIAL_CACHE_DIR}:/root/.cache
     restart: unless-stopped
