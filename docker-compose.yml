@@ -9,11 +9,13 @@ services:
     ports:
       - "${PORT:-8080}:${PORT:-8080}"
     volumes:
-      - ./.config:/source:ro
-      - hexdial_config:/home/appuser/.config
-    command: sh -c "if [ -d /source ] && [ \"$$(ls -A /source 2>/dev/null)\" ]; then for file in /source/*; do target_file=\"/home/appuser/.config/$$(basename $$file)\"; if [ ! -e \"$$target_file\" ]; then cp -r \"$$file\" \"$$target_file\" 2>/dev/null || true; fi; done; fi && chown -R 1000:1000 /home/appuser/.config && chmod -R u+w /home/appuser/.config && exec su appuser -s /bin/sh -c 'exec hexdial-api'"
+      # Config directory: mount host XDG config to container
+      # Set HEXDIAL_CONFIG_DIR in .env or use default: ~/.config/hexdial
+      - ${HEXDIAL_CONFIG_DIR}:/root/.config/hexdial
+      # Data directory: mount host XDG data to container (assets, chat, verification)
+      # Set HEXDIAL_DATA_DIR in .env or use default: ~/.local/share/hexdial
+      - ${HEXDIAL_DATA_DIR}:/root/.local/share/hexdial
+      # Cache directory: mount host XDG cache to container
+      # Set HEXDIAL_CACHE_DIR in .env or use default: ~/.cache
+      - ${HEXDIAL_CACHE_DIR}:/root/.cache
     restart: unless-stopped
-volumes:
-  hexdial_config:
-    name: hexdial_config
-    driver: local
